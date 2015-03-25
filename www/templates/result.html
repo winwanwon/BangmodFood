@@ -1,0 +1,37 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="<span class='title'>BangmodFood</span>">
+  <ion-content class="padding">
+    <h1>{{name}}</h1>
+    <div class="card" style="display:none;" ng-class="promoClass">
+      <div class="item item-text-wrap item-icon-left energized">
+        <i class="icon ion-star"></i>
+        {{promo}}
+      </div>
+    </div>
+    <div class="card">
+      <div class="item item-divider">
+        <b>ตำแหน่งที่ตั้ง</b>
+      </div>
+      <div class="item item-text-wrap">
+        <ui-gmap-google-map center="map.center" zoom="map.zoom" options="options" bounds="map.bounds">
+          <ui-gmap-marker id="Location" coords="marker.coords" options="marker.options" events="marker.events" idkey="marker.id">
+          </ui-gmap-marker>
+        </ui-gmap-google-map>
+      </div>
+    </div>
+    <div class="card">
+      <div class="item item-divider">
+        <b>รายละเอียดเพิ่มเติม</b>
+        </div>
+      <div class="item item-text-wrap">
+        {{description}}
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view>

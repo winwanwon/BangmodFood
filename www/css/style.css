@@ -1,0 +1,98 @@
+/* Empty. Add your own CSS if you like */
+*, body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Thonburi', 'Helvetica';
+}
+
+h1 {
+  padding: 20px 0 10px 0 ;
+  text-align:center;
+
+}
+
+.bar-energized {
+  background: #f68a1f!important;
+}
+
+.button-custom {
+  background: #ecf0f1;
+  padding: 65px 0;
+  font-size: 24px;
+  font-weight: 200;
+  border: none;
+}
+
+.popup {
+  width: 85% !important;
+  max-width: 400px !important;
+}
+
+.popup hr {
+  opacity: 0.3 !important;
+  margin: 15px 0 !important;
+}
+
+.universal {
+  background: url('../img/bg3.png');
+  background-size: cover;
+  background-position: center 30%;
+}
+
+.lunch {
+  background: url('../img/bg4.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.better {
+  background: url('../img/bg1.png');
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.dessert {
+  background: url('../img/bg2.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.buffet {
+  background: url('../img/bg2.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.black-back {
+  padding: 10px;
+  color:#FFF;
+  background: rgba(0,0,0,0.5);
+}
+
+.white-back {
+  padding: 10px;
+  color:#111;
+  background: rgba(255,255,255,0.5);
+}
+
+.ion-loading-a {
+  margin-bottom: 15px;
+}
+
+.title {
+  font-family: 'Helvetica Neue' !important;
+  font-size: 24px !important;
+  font-weight:200 !important;
+}
+
+.hidden {
+  display:none;
+}
+
+.show {
+  display:block !important;
+}
+
+ion-footer-bar {
+  cursor: pointer;
+}
+
+.angular-google-map-container { height: 220px; }
